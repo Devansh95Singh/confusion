@@ -1,10 +1,15 @@
 import React from 'react';
+import { Navbar, NavbarBrand } from 'reactstrap';
 class App extends React.Component {
  render() {
   return(
    <div>
-    <h1>My App Component</h1>
-    <p>qjnsknsjvsdvv kjsahkjdnf  ndskfnsgn cscaaskjdnsnl nfief</p>
+    < Navbar dark color="primary">
+        <div className="container-fluid">
+            <NavbarBrand href="/">Hello</NavbarBrand>
+        </div>
+    </Navbar>
+    
    </div>
   );
  }
