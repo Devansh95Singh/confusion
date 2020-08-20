@@ -9,7 +9,8 @@ class App extends React.Component
      {
          super(props);
          this.state ={
-             dishes :DISHES
+             dishes :DISHES,
+             
          };
      }
  
@@ -33,7 +34,7 @@ class App extends React.Component
         </Navbar>
         {/*<h1>My name is {user.name} and my address is {user.address} </h1>    
         <h2> Hello  {details(user)} !!</h2>*/}
-        <Menu dishes={this.state.dishes} />
+        <Menu dishes={this.state.dishes}/>
         
    </div>
    
